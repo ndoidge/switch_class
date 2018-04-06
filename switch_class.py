@@ -102,7 +102,7 @@ class switch():
             return 0
 
         if response.status_code != requests.codes.ok:
-            return response.status_code,
+            return 0,
         else:
             return 1
 
